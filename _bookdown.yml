@@ -1,0 +1,13 @@
+--- 
+title: "Analítica de Daotos Industriales Para la Toma de Decisión"
+author: "Ricardo R. Palma"
+date: "`r Sys.Date()`"
+site: "bookdown::bookdown_site"
+output:
+  bookdown::gitbook: default
+documentclass: book
+bibliography: ["book.bib", "packages.bib"]
+biblio-style: apa
+link-citations: yes
+delete_merged_file: true
+---

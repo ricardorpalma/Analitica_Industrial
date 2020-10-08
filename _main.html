@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Material de Clase</title>
+  <meta name="description" content="Material de Clase" />
+  <meta name="generator" content="bookdown #bookdown:version# and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Material de Clase" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Material de Clase" />
+  
+  
+  
+
+<meta name="author" content="Ricardo Palma" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<!--bookdown:link_prev-->
+<!--bookdown:link_next-->
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+
+
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+<!--bookdown:title:start-->
+<div id="header">
+<h1 class="title">Material de Clase</h1>
+<p class="author"><em>Ricardo Palma</em></p>
+<p class="date"><em>6 de septiembre de 2020</em></p>
+</div>
+<!--bookdown:title:end-->
+
+<!--bookdown:toc:start-->
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+<!--bookdown:toc2:start-->
+<ul>
+<li><a href="#prefacio">Prefacio</a></li>
+<li><a href="#prerequisitos-para-el-curso"><span class="toc-section-number">1</span> Prerequisitos para el curso</a><ul>
+<li><a href="#primer-referencia-biblográfica-que-puede-ayudarte."><span class="toc-section-number">1.1</span> Primer referencia biblográfica que puede ayudarte.</a><ul>
+<li><a href="#r-para-ciencia-de-datos"><span class="toc-section-number">1.1.1</span> R para Ciencia de Datos</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#introduction"><span class="toc-section-number">2</span> Introduction</a></li>
+<li><a href="#Encuentro_1"><span class="toc-section-number">3</span> Analítica de Datos</a><ul>
+<li><a href="#teoría"><span class="toc-section-number">3.1</span> Teoría</a><ul>
+<li><a href="#bases-de-la-analítica-de-datos"><span class="toc-section-number">3.1.1</span> Bases de la analítica de datos</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#revisión-de-las-herramientas-de-software-y-hardware-disponibles"><span class="toc-section-number">4</span> Revisión de las herramientas de software y hardware disponibles</a><ul>
+<li><a href="#software-para-celulares"><span class="toc-section-number">4.1</span> Software para celulares</a></li>
+<li><a href="#herramientas-para-pc"><span class="toc-section-number">4.2</span> Herramientas para PC</a><ul>
+<li><a href="#análisis-bibliométrico"><span class="toc-section-number">4.2.1</span> Análisis Bibliométrico</a></li>
+</ul></li>
+<li><a href="#tecnologías"><span class="toc-section-number">4.3</span> Tecnologías</a></li>
+<li><a href="#casos-de-estudio-para-el-aula-virtual"><span class="toc-section-number">4.4</span> Casos de estudio para el aula virtual</a></li>
+</ul></li>
+<li><a href="#literature"><span class="toc-section-number">5</span> Literature</a></li>
+<li><a href="#bibliografía"><span class="toc-section-number">6</span> Bibliografía</a></li>
+<li><a href="#methods"><span class="toc-section-number">7</span> Methods</a></li>
+<li><a href="#métodos"><span class="toc-section-number">8</span> Métodos</a></li>
+<li><a href="#aplicaciones"><span class="toc-section-number">9</span> Aplicaciones</a><ul>
+<li><a href="#el-caso-de-nuevazelanda-de-la-industria-del-vino"><span class="toc-section-number">9.1</span> El caso de Nuevazelanda de la industria del vino</a></li>
+<li><a href="#que-hace-el-inv-en-argentina"><span class="toc-section-number">9.2</span> ¿Que hace el INV en Argentina</a></li>
+</ul></li>
+<li><a href="#applications"><span class="toc-section-number">10</span> Applications</a><ul>
+<li><a href="#example-one"><span class="toc-section-number">10.1</span> Example one</a></li>
+<li><a href="#example-two"><span class="toc-section-number">10.2</span> Example two</a></li>
+</ul></li>
+<li><a href="#final-words"><span class="toc-section-number">11</span> Final Words</a></li>
+<li><a href="#datasets"><span class="toc-section-number">12</span> Datasets</a></li>
+<li><a href="#referencias">Referencias</a></li>
+<li><a href="#datasets">Datasets</a></li>
+<li><a href="#datasets-utilizados-en-el-curso"><span class="toc-section-number">13</span> Datasets utilizados en el curso</a><ul>
+<li><a href="#wash"><span class="toc-section-number">13.1</span> WASH</a></li>
+<li><a href="#impactos-de-la-aglomeración-industrial-en-la-eficiencia-ecológica-y-polución"><span class="toc-section-number">13.2</span> Impactos de la aglomeración industrial en la eficiencia ecológica y polución</a></li>
+<li><a href="#implementación-de-algoritmo-k-means-para-dispositivos-eterogeneos-cpugpu"><span class="toc-section-number">13.3</span> Implementación de algoritmo K-Means para dispositivos eterogeneos (cpu/gpu)</a></li>
+<li><a href="#infrastructure-global-wine-statistics-trained-neural-net"><span class="toc-section-number">13.4</span> (Infrastructure) Global Wine Statistics Trained Neural Net</a></li>
+<li><a href="#aerocargo-trafic-argentina---from-2014-to-2019-no-covid-19-data-included"><span class="toc-section-number">13.5</span> Aerocargo Trafic Argentina - from 2014 to 2019 (no covid-19 data included)</a></li>
+<li><a href="#energy-statistical-yearbook-2018---statistics"><span class="toc-section-number">13.6</span> Energy Statistical Yearbook 2018 - Statistics</a></li>
+<li><a href="#herederos"><span class="toc-section-number">13.7</span> Herederos</a></li>
+<li><a href="#índice-de-innovación-potencial"><span class="toc-section-number">13.8</span> Índice de Innovación Potencial</a></li>
+<li><a href="#residuos-agrícolas"><span class="toc-section-number">13.9</span> Residuos Agrícolas</a></li>
+<li><a href="#comparación-de-la-competitividad-de-bodegas-vitícolas-de-mendoza"><span class="toc-section-number">13.10</span> Comparación de la competitividad de Bodegas Vitícolas de Mendoza</a></li>
+<li><a href="#world-compliance-association"><span class="toc-section-number">13.11</span> World Compliance Association</a></li>
+<li><a href="#empresas-innovadoras"><span class="toc-section-number">13.12</span> Empresas innovadoras</a></li>
+<li><a href="#uso-de-energías-alternativas"><span class="toc-section-number">13.13</span> Uso de Energías Alternativas</a></li>
+<li><a href="#r-markdown"><span class="toc-section-number">13.14</span> R Markdown</a></li>
+<li><a href="#including-plots"><span class="toc-section-number">13.15</span> Including Plots</a></li>
+</ul></li>
+</ul>
+<!--bookdown:toc2:end-->
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Material de Clase</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<!--bookdown:toc:end-->
+<!--bookdown:body:start-->
+<div id="prefacio" class="section level1 unnumbered">
+<h1>Prefacio</h1>
+<p>Di3 Doctorado Interinsititucional en Ingeniería Industrial</p>
+<ul>
+<li>Universidad Nacional de Cuyo.</li>
+<li>Universidad Nacional de Misiones (Overá)</li>
+<li>Universidad Nacional de Jujuy</li>
+<li>Universidad Nacional de Salta</li>
+<li>Universidad Nacional de La Rioja</li>
+<li>Universidad Nacional de Tucuman</li>
+</ul>
+<div class="figure">
+<img src="Flyer3.png" alt="Flyer" />
+<p class="caption">Flyer</p>
+</div>
+<!--chapter:end:index.Rmd-->
+</div>
+<div id="prerequisitos-para-el-curso" class="section level1">
+<h1><span class="header-section-number">1</span> Prerequisitos para el curso</h1>
+<p>Para realizar este curso debes tener más pasión que vocación. Este curso está pensado para interesados en el doctorado en ingeniería industrial Di3</p>
+<p>No necesitas saber programar, repito <strong>NO NECESITAS</strong> !!!</p>
+<div class="figure">
+<img src="data-science.png" alt="Esto es programar" />
+<p class="caption">Esto es programar</p>
+</div>
+<p>Pero si has hecho esto que aparece en la figura alguna vez en tu vida, no te preocupes ... Has programado sin saber que esto tan simple es programar !!!</p>
+<p>Lo realmente complicado es que vas ha tener que instalar algo de sofrware libre y tener algo de espacio en el disco para manejar datasets un poco aparatodos. Creo realmente que este es un requisito más complicado que el de saber programar.</p>
+<p>Utilizaremos a lo largo del curso el lenguaje R-Cran. Pero como es un tanto árido para escribir nos valdremos de otro pargrama (del tipo que se denomina IDE) llamado R-Studio. R-Studio es un Integratede Development Envirnment o Entorno de Desarrollo Integrado que facilita mucho jugar con los datos.</p>
+<p>La secuencia de instalación es :</p>
+<p>1 - Instalar R-Cran que puedes bajar de <a href="https://cran.r-project.org/" class="uri">https://cran.r-project.org/</a></p>
+<p>2 - Instalar luego R-Studio que puedes bajar <a href="https://rstudio.com/products/rstudio/download/" class="uri">https://rstudio.com/products/rstudio/download/</a></p>
+<p>Elije la versión gratuita , a menos que te estén sobrando los dólares y quieras pagar una liencia que no es muy cara.</p>
+<p>Por favor sigue el oden de isntalación que indicamos.</p>
+<pre><code>        Existe un paquete para usar R-Cran desde Excel 
+        (Aka usar comando de R dentro de Excel, pero hablaremos de esto en clase).</code></pre>
+<hr>
+<p>Primero, debes importar tus datos hacia R. Típicamente, esto implica tomar datos que están guardados en un archivo, base de datos o API y cargarlos como data frame en R. Si no puedes llevar tus datos a R, no puedes hacer ciencia de datos con él.</p>
+<p>Una vez que has importado los datos, es una buena idea ordenarlos. Ordenar los datos significa guardarlos de una manera consistente que haga coincidir la semántica del set de datos con la manera en que está guardado. En definitiva, cuando tus datos están ordenados, cada columna es una variable y cada fila una observación. Tener datos ordenados es importante porque si su estructura es consistente, puedes enfocar tus esfuerzos en las preguntas sobre los datos y no en luchar para que estos tengan la forma necesaria para diferentes funciones.</p>
+<p>Cuando tus datos están ordenados, un primer paso suele ser transformarlos. La transformación implica reducir las observaciones a aquellas que sean de interés (como todas las personas de una ciudad o todos los datos del último año), crear nuevas variables que sean funciones de variables ya existentes (como calcular la rapidez a partir de la velocidad y el tiempo) y calcular una serie de estadísticos de resumen (como recuentos y medias). Juntos, a ordenar y transformar, se les llama manejar o domar los datos, porque hacer que estos tengan la forma con la que es natural trabajarlos, suele sentirse como una lucha.</p>
+<p>Una vez que tienes los datos ordenados con las variables que necesitas, hay dos principales fuentes generadoras de conocimiento: la visualización y el modelado. Ambas tienen fortalezas y debilidades complementarias, por lo que cualquier análisis real iterará entre ellas varias veces.</p>
+<p>La visualización es una actividad humana fundamental. Una buena visualización te mostrará cosas que no esperabas o hará surgir nuevas preguntas acerca de los datos. También puede darte pistas acerca de si estás haciendo las preguntas equivocadas o si necesitas recolectar datos diferentes. Las visualizaciones pueden sorprenderte, pero no escalan particularmente bien, ya que requieren ser interpretadas por una persona.</p>
+<p>Los modelos son herramientas complementarias a la visualización. Una vez que tus preguntas son lo suficientemente precisas, puedes utilizar un modelo para responderlas. Los modelos son herramientas matemáticas o computacionales, por lo que generalmente escalan bien. Incluso cuando no lo hacen, resulta más económico comprar más computadores que comprar más cerebros. Sin embargo, cada modelo tiene supuestos y, debido a su propia naturaleza, un modelo no puede cuestionar sus propios supuestos. Esto significa que un modelo, por definición, no puede sorprenderte.</p>
+<p>El último paso de la ciencia de datos es la comunicación, una parte crítica de cualquier proyecto de análisis de datos. No importa qué tan bien tus modelos y visualizaciones te hayan permitido entender tus datos, a menos que también puedas comunicar esos resultados a otras personas.</p>
+<p>Alrededor de todas estas herramientas se encuentra la programación. La programación es una herramienta transversal que usarás en todas las partes de tu proyecto. No necesitas ser una personas experta en programación para hacer ciencia de datos, pero aprender más sobre ella es una gran ventaja porque te permite automatizar tareas recurrentes y resolver problemas con mayor facilidad.</p>
+<p>En cualquier proyecto de ciencia de datos tendrás que ocupar estas herramientas, pero en muchos casos estas no serán suficientes. Hay un regla aproximada de 80-20 en juego: puedes enfrentar alrededor del 80 % de cualquier proyecto usando las herramientas que aprenderás en este curso, pero necesitarás utilizar otras para abordar el 20 % restante. A lo largo del curso te iremos señalando recursos donde puedes aprender más.</p>
+<div id="primer-referencia-biblográfica-que-puede-ayudarte." class="section level2">
+<h2><span class="header-section-number">1.1</span> Primer referencia biblográfica que puede ayudarte.</h2>
+<p>La ciencia avanza por que se comunica</p>
+<div id="r-para-ciencia-de-datos" class="section level3">
+<h3><span class="header-section-number">1.1.1</span> R para Ciencia de Datos</h3>
+<p>Garrett Grolemund Hadley Wickham</p>
+<div class="figure">
+<img src="RforD.png" alt="R for Data Science" />
+<p class="caption">R for Data Science</p>
+</div>
+<p>Este es el Libro Web de la versión en español de “R for Data Science”, de Hadley Wickham y Garrett Grolemund. Este texto te enseñará cómo hacer ciencia de datos con R: aprenderás a importar datos, llevarlos a la estructura más conveniente, transformarlos, visualizarlos y modelarlos. Así podrás poner en pŕactica las habilidades necesarias para hacer ciencia de datos. Tal como los químicos aprenden a limpiar tubos de ensayo y ordenar un laboratorio, aprenderás a limpiar datos y crear gráficos— junto a muchas otras habilidades que permiten que la ciencia de datos tenga lugar. En este libro encontrarás las mejores prácticas para desarrollar dichas tareas usando R. También aprenderás a usar la gramática de gráficos, programación letrada e investigación reproducible para ahorrar tiempo. Además, aprenderás a manejar recursos cognitivos para facilitar el hacer descubrimientos al momento de manipular, visualizar y explorar datos.</p>
+<p>Link al libro web <a href="https://es.r4ds.hadley.nz/index.html" class="uri">https://es.r4ds.hadley.nz/index.html</a></p>
+<p>Citas correctamente realizada <span class="citation">[@wickham2018r]</span></p>
+<p>Todos los trabajos de evaluación que desarrollaremos serán realizados utilizando la misma tecnología de publicación que se ha utilizado en este libro.</p>
+<!--chapter:end:00-Prologo.Rmd-->
+</div>
+</div>
+</div>
+<div id="introduction" class="section level1">
+<h1><span class="header-section-number">2</span> Introduction</h1>
+<p>This chapter is an overview of the methods that we propose to solve an <strong>important problem</strong>.</p>
+<!--chapter:end:01-Intro.Rmd-->
+</div>
+<div id="Encuentro_1" class="section level1">
+<h1><span class="header-section-number">3</span> Analítica de Datos</h1>
+<p>Acceso al aula virtual para hacer los trabajos prácticos de este Encuentro</p>
+<p><a href="https://classroom.google.com/c/MTIxNDQ1ODYyMTM4?cjc=yegjvv2">link</a></p>
+<div id="teoría" class="section level2">
+<h2><span class="header-section-number">3.1</span> Teoría</h2>
+<div id="bases-de-la-analítica-de-datos" class="section level3">
+<h3><span class="header-section-number">3.1.1</span> Bases de la analítica de datos</h3>
+<p>Habitualmente en el terreno de las ingenierías, especialmente en las ingenierías generalistas, como la mecatrónica y la industrial, hay una serie de pasos que guían el paso de un profesional junior a senior. Este paso intermedio al que nos referimos es el de un profesional que pasa de las estapas operativas o de planeamiento táctico al de una persona con mucha experiencia es ese terreno que se transforma de supervisor de un área limitada a ANALISTA.</p>
+<p>La principal característica de este profesional es que ha logrado, merced a su experiencia en varios proyectos o años de planeación y supervisión el talento para lograr una abstracción que le permitiría en teoría saltar del campo disciplinar en el que se formó para instalarse en otro distinto y ser exitoso sin pasar por la experimentación y experiencia.</p>
+<p>Hemos conocido a muchos ingenieros y profesionales del terreno industrial que, por ejemplo tuvieron unos 5 a 10 años en el área del retail o del supermrecadismo en Argentina y saltaron a ser analistas en el terreno de la industria automotriz en Brasil. ¿Cómo es esto posible?</p>
+<p>La respuesta más simple para entender esta situación es que se trata de procesos (o fenómenos) homólogos. Vale decir los modelos y eurísticas del retail en la preparación de pedidos y forecasting son los mismos que rigen el planeamiento de la producción de una línea automotríz.</p>
+<p>Pensemos, con la ley de Ohm es casi natural para los ingenieros explicar fenómenos sociales o el mismo calentamiento global.</p>
+<p>Un analista es capaz de observar un comportamiento e intuir en determinadas circunstancias tal o cual modelo no es aplicable a una situación coyuntural.</p>
+<p>A modo de ejemplo casi ningún analista en la cadena de suministros aplicaría en situación de pandemia el modelo de Wilson para determinar el nivel de inventario o el tamaño de lote.</p>
+<p>Existen analistas “intuitivos” que saben capitalizar sus experiencias previas, pero este tiempo de los artesanos paa el análisis cada día se torna menos creible y los verdaderamente exitosos han cambiado el instinto por marcos teóricos formales. En tal sentido la inteligencia artificial ha salido en ayuda del analista y como ella otros marcos formales han conformado este campo disciplinar emergente que es el que llamamos analítica de datos.</p>
+<p>Existen al menos tres profesionales que integran los equipos del team de la analítica de datos.</p>
+<ul>
+<li>Data Engineer</li>
+<li>Data Scientific</li>
+<li>Data worker o seeker</li>
+<li>Pure Data Analyst</li>
+<li>Draftsman</li>
+</ul>
+<p>Todos son importantes en un equipo, pero ninguno es imprescindible. En el sector PyME de LAC (Latino América y Caribe) no es extraño que estos equipos se reduzcan a límite de ser equipos de una sola persona, que además comercializan, compran materia prima, atienden los conflictos familiares de los dueños de la empresa, pagan sueldos e impuestos y barren. Todo sea por mantener la empresa en funcionamiento. Me olvidaba , si queda tiempo hacen de advisor con la analítica de datos.</p>
+<p>La Analítica de Datos (Data Analysis, o DA) es la ciencia que examina datos en bruto con el propósito de sacar conclusiones sobre la información. El análisis de datos es usado en varias industrias para permitir que las compañías y las organizaciones <em>tomen mejores decisiones</em> empresariales y también es usado en las ciencias para verificar o reprobar modelos o teorías existentes. El análisis de datos se distingue de la extracción de datos por su alcance, su propósito y su enfoque sobre el análisis. Los extractores de datos clasifican inmensos conjuntos de datos usando software sofisticado para identificar patrones no descubiertos y establecer relaciones escondidas. El análisis de datos se centra en la inferencia, el proceso de derivar una conclusión basándose solamente en lo que conoce el investigador y fuertemente soportado por la estadística.</p>
+</div>
+</div>
+</div>
+<div id="revisión-de-las-herramientas-de-software-y-hardware-disponibles" class="section level1">
+<h1><span class="header-section-number">4</span> Revisión de las herramientas de software y hardware disponibles</h1>
+<div id="software-para-celulares" class="section level2">
+<h2><span class="header-section-number">4.1</span> Software para celulares</h2>
+<p>Es claro que el territorio que antes ocupaba la PC es cada día más invadido por el teléfono celular. Por este motivo es necesario tnener en cuenta que dentro de las herramientas disponibles existen programas o software para PC, apps para el celular y elementos mixtos, tales como la aplicaciones en la nube. De modo que al encarar el tema de analítica de datos este hecho relativo al hardware debe ser tenido en cuenta y no limitarse a una preconcepción.</p>
+<p>Por otro lado en el entorno indutrial cada vez son más los dispositivos (electrodomésticos) que vienen concebidos con internet de las cosas -IOT- por sus siglas en inglés . En le mundo de la industria esto también ocurre con equipo dotados de lo que se denomina internet de las cosas industriales -IIOT-.</p>
+<div class="figure">
+<img src="playstore.png" alt="Aplicaciones Android" />
+<p class="caption">Aplicaciones Android</p>
+</div>
+<p>Esto es lo que hoy aparece como aplicaciones disponibles para el sistema android . En este caso hemos utilizado aplicaciones que pueden ayudar mucho en la elaboración del trabajo de evaluación, pero tienen un aporta mayor para elaborar una tesis doctoral.</p>
+<p>De todos modos es altamente recomendable que indagues y experimentes con ellas. Tanto las herramientas de gestión bibliometrica como las de gestión y revisión de patentes están entre las aplicaiones más usadas en el campo de la analítica de datos industriales.</p>
+</div>
+<div id="herramientas-para-pc" class="section level2">
+<h2><span class="header-section-number">4.2</span> Herramientas para PC</h2>
+<div id="análisis-bibliométrico" class="section level3">
+<h3><span class="header-section-number">4.2.1</span> Análisis Bibliométrico</h3>
+<p>Sea cual fuere el entorno o problema industrial que motiva en trabajo de la analítica que se pretende desarrollar hay dos factores clave que deben ser tenidos en cuenta. El primero está referido a las redes de personas. Hace unos 20 años atrás era muy común la ealboración de almanaques o enciclopedias que señalavan lo que se denominaba who is who en determinado campo industrial o de investigación.</p>
+<p>El segundo era descibrir como los trabajos y pdoducidos de la investigación ligaban territorialmente a estas, persona. Este segundo punto además permite con la ayuda de servicios orientados de internet obtener una perspectova golbal de la especialización por país y actividad.</p>
+<p><img src="almanaque.jpg" alt="Almanaque Mundial" /> Pero mucho de este material sustituido por las herramientas bibliométricas que aún reinan en el terreno de la PC pero cada día se mueven a la nube o al celular.</p>
+<p>Estas herramientas bibliométricas son una de las clavex para comenzar a trabajar en analítica de datos, pero también para elaborar una parte central del primer capítulo de cualquier tesis denominada <em>Estado del Arte</em>.</p>
+<ul>
+<li>Georeferenciación y exploración georeferenciada de datos y bibliometría</li>
+<li>Modelos basados en redes neuronales y su entrenamiento</li>
+<li>Crítica de la KDNN con el uso de Big-Data</li>
+</ul>
+</div>
+</div>
+<div id="tecnologías" class="section level2">
+<h2><span class="header-section-number">4.3</span> Tecnologías</h2>
+<ul>
+<li>Soluciones propuesta con el uso de CUDA (uso de GPU en lugar de CPU)</li>
+<li>Uso de la biblioteca Neuralnet y NeuralNetTools.</li>
+<li>Uso de las bibliotecas Serial Time Análisis y Finance Econometics, diferencias entre las predicciones de ambas tecnologías</li>
+</ul>
+</div>
+<div id="casos-de-estudio-para-el-aula-virtual" class="section level2">
+<h2><span class="header-section-number">4.4</span> Casos de estudio para el aula virtual</h2>
+<p>Caso de Estudio – El éxitoso caso de la industria del vino en Nueva Zelanda durante la pandemia Caso de Estudio – El INV y el sector vitivinícola de Mendoza, hacia una nueva explosión del consumo de vinos de alta gama como consecuencia de la cuarentena.</p>
+<p>You can label chapter and section titles using <code>{#label}</code> after them, e.g., we can reference Chapter @ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter @ref(methods).</p>
+<p>Figures and tables with captions will be placed in <code>figure</code> and <code>table</code> environments, respectively.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">par</span>(<span class="dt">mar =</span> <span class="kw">c</span>(<span class="dv">4</span>, <span class="dv">4</span>, .<span class="dv">1</span>, .<span class="dv">1</span>))
+<span class="kw">plot</span>(pressure, <span class="dt">type =</span> <span class="st">&#39;b&#39;</span>, <span class="dt">pch =</span> <span class="dv">19</span>)</code></pre></div>
+<div class="figure" style="text-align: center">
+<img src="_main_files/figure-html/nice-fig-1.png" alt="Here is a nice figure!" width="80%" />
+<p class="caption">
+(#fig:nice-fig)Here is a nice figure!
+</p>
+</div>
+<p>Reference a figure by its code chunk label with the <code>fig:</code> prefix, e.g., see Figure @ref(fig:nice-fig). Similarly, you can reference tables generated from <code>knitr::kable()</code>, e.g., see Table @ref(tab:nice-tab).</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">knitr<span class="op">::</span><span class="kw">kable</span>(
+  <span class="kw">head</span>(iris, <span class="dv">20</span>), <span class="dt">caption =</span> <span class="st">&#39;Here is a nice table!&#39;</span>,
+  <span class="dt">booktabs =</span> <span class="ot">TRUE</span>
+)</code></pre></div>
+<table>
+<caption>(#tab:nice-tab)Here is a nice table!</caption>
+<thead>
+<tr class="header">
+<th align="right">Sepal.Length</th>
+<th align="right">Sepal.Width</th>
+<th align="right">Petal.Length</th>
+<th align="right">Petal.Width</th>
+<th align="left">Species</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">5.1</td>
+<td align="right">3.5</td>
+<td align="right">1.4</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">4.9</td>
+<td align="right">3.0</td>
+<td align="right">1.4</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">4.7</td>
+<td align="right">3.2</td>
+<td align="right">1.3</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">4.6</td>
+<td align="right">3.1</td>
+<td align="right">1.5</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">5.0</td>
+<td align="right">3.6</td>
+<td align="right">1.4</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">5.4</td>
+<td align="right">3.9</td>
+<td align="right">1.7</td>
+<td align="right">0.4</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">4.6</td>
+<td align="right">3.4</td>
+<td align="right">1.4</td>
+<td align="right">0.3</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">5.0</td>
+<td align="right">3.4</td>
+<td align="right">1.5</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">4.4</td>
+<td align="right">2.9</td>
+<td align="right">1.4</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">4.9</td>
+<td align="right">3.1</td>
+<td align="right">1.5</td>
+<td align="right">0.1</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">5.4</td>
+<td align="right">3.7</td>
+<td align="right">1.5</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">4.8</td>
+<td align="right">3.4</td>
+<td align="right">1.6</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">4.8</td>
+<td align="right">3.0</td>
+<td align="right">1.4</td>
+<td align="right">0.1</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">4.3</td>
+<td align="right">3.0</td>
+<td align="right">1.1</td>
+<td align="right">0.1</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">5.8</td>
+<td align="right">4.0</td>
+<td align="right">1.2</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">5.7</td>
+<td align="right">4.4</td>
+<td align="right">1.5</td>
+<td align="right">0.4</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">5.4</td>
+<td align="right">3.9</td>
+<td align="right">1.3</td>
+<td align="right">0.4</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">5.1</td>
+<td align="right">3.5</td>
+<td align="right">1.4</td>
+<td align="right">0.3</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">5.7</td>
+<td align="right">3.8</td>
+<td align="right">1.7</td>
+<td align="right">0.3</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">5.1</td>
+<td align="right">3.8</td>
+<td align="right">1.5</td>
+<td align="right">0.3</td>
+<td align="left">setosa</td>
+</tr>
+</tbody>
+</table>
+<p>You can write citations, too. For example, we are using the <strong>bookdown</strong> package <span class="citation">[@R-bookdown]</span> in this sample book, which was built on top of R Markdown and <strong>knitr</strong> <span class="citation">[@xie2015]</span>.</p>
+<!--chapter:end:01-Unidad_1.Rmd-->
+</div>
+</div>
+<div id="literature" class="section level1">
+<h1><span class="header-section-number">5</span> Literature</h1>
+<p>Here is a review of existing methods.</p>
+<!--chapter:end:02-Intro.Rmd-->
+</div>
+<div id="bibliografía" class="section level1">
+<h1><span class="header-section-number">6</span> Bibliografía</h1>
+<p>Estas referencias bibliográfica serán de utilidad en el curso</p>
+<!--chapter:end:02-literature.Rmd-->
+</div>
+<div id="methods" class="section level1">
+<h1><span class="header-section-number">7</span> Methods</h1>
+<p>We describe our methods in this chapter.</p>
+<!--chapter:end:03-Intro.Rmd-->
+</div>
+<div id="métodos" class="section level1">
+<h1><span class="header-section-number">8</span> Métodos</h1>
+<p>Métodos Utilizados en los trabajos</p>
+<!--chapter:end:03-method.Rmd-->
+</div>
+<div id="aplicaciones" class="section level1">
+<h1><span class="header-section-number">9</span> Aplicaciones</h1>
+<p>Casos de estudios</p>
+<div id="el-caso-de-nuevazelanda-de-la-industria-del-vino" class="section level2">
+<h2><span class="header-section-number">9.1</span> El caso de Nuevazelanda de la industria del vino</h2>
+</div>
+<div id="que-hace-el-inv-en-argentina" class="section level2">
+<h2><span class="header-section-number">9.2</span> ¿Que hace el INV en Argentina</h2>
+<!--chapter:end:04-application.Rmd-->
+</div>
+</div>
+<div id="applications" class="section level1">
+<h1><span class="header-section-number">10</span> Applications</h1>
+<p>Some <em>significant</em> applications are demonstrated in this chapter.</p>
+<div id="example-one" class="section level2">
+<h2><span class="header-section-number">10.1</span> Example one</h2>
+</div>
+<div id="example-two" class="section level2">
+<h2><span class="header-section-number">10.2</span> Example two</h2>
+<!--chapter:end:04-Intro.Rmd-->
+</div>
+</div>
+<div id="final-words" class="section level1">
+<h1><span class="header-section-number">11</span> Final Words</h1>
+<p>We have finished a nice book.</p>
+<!--chapter:end:05-Intro.Rmd-->
+</div>
+<div id="datasets" class="section level1">
+<h1><span class="header-section-number">12</span> Datasets</h1>
+<p>Set de Datos y Métodos de Depuración</p>
+<!--chapter:end:05-summary.Rmd-->
+</div>
+<div id="referencias" class="section level1 unnumbered">
+<h1>Referencias</h1>
+<!--chapter:end:06-references.Rmd-->
+</div>
+<div id="datasets" class="section level1 unnumbered">
+<h1>Datasets</h1>
+</div>
+<div id="datasets-utilizados-en-el-curso" class="section level1">
+<h1><span class="header-section-number">13</span> Datasets utilizados en el curso</h1>
+<p>El siguiente es un listado de los datasets que utilizaremos en el curso y eventualmente otros que los doctorandos propongan.</p>
+<p>En la medida de sus posibilidades les pedimos que nos hagan llevar un link de acceso al dataset junto a un resumen de los datos y características.</p>
+<div id="wash" class="section level2">
+<h2><span class="header-section-number">13.1</span> WASH</h2>
+<p>Urban Water and Sanitation Survey Dataset Ernest Guevarra 2020-09-29</p>
+<p>Este dataset puede ser accedido directamente desde R-Cran invocando la instalación del paquete wash</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">install.packages</span>(<span class="st">&quot;washdata&quot;</span>)</code></pre></div>
+<pre><code>## Installing package into &#39;/home/rpalma/R/x86_64-pc-linux-gnu-library/3.4&#39;
+## (as &#39;lib&#39; is unspecified)</code></pre>
+<p>El dataset aborda el probelma de la producción de agua y el tratamiento de los efluentes en el hemisferio sur.</p>
+<p><a href="https://cran.r-project.org/web/packages/washdata/vignettes/washdata.html" class="uri">https://cran.r-project.org/web/packages/washdata/vignettes/washdata.html</a></p>
+</div>
+<div id="impactos-de-la-aglomeración-industrial-en-la-eficiencia-ecológica-y-polución" class="section level2">
+<h2><span class="header-section-number">13.2</span> Impactos de la aglomeración industrial en la eficiencia ecológica y polución</h2>
+<p>Un análisis econométrico basado en un dataset de 259 ciudades chinas.</p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S095965262030768X?casa_token=mTfJg69BY9gAAAAA:p5EX-I8QU4ZPRwoBQ2JugGsWP9RAJKaQg82mNI_r-JUMfhkkZuWQeIr8O_Cyz9RrEet9lj_D_VU" class="uri">https://www.sciencedirect.com/science/article/pii/S095965262030768X?casa_token=mTfJg69BY9gAAAAA:p5EX-I8QU4ZPRwoBQ2JugGsWP9RAJKaQg82mNI_r-JUMfhkkZuWQeIr8O_Cyz9RrEet9lj_D_VU</a></p>
+</div>
+<div id="implementación-de-algoritmo-k-means-para-dispositivos-eterogeneos-cpugpu" class="section level2">
+<h2><span class="header-section-number">13.3</span> Implementación de algoritmo K-Means para dispositivos eterogeneos (cpu/gpu)</h2>
+<p>Caso de estudio basado en un dataset industrial.</p>
+<p><a href="https://upcommons.upc.edu/handle/2117/114842" class="uri">https://upcommons.upc.edu/handle/2117/114842</a></p>
+</div>
+<div id="infrastructure-global-wine-statistics-trained-neural-net" class="section level2">
+<h2><span class="header-section-number">13.4</span> (Infrastructure) Global Wine Statistics Trained Neural Net</h2>
+<p>Autores Ricardo R. Palma Fecha de publicación 2020/2/11 Origen <a href="https://data.mendeley.com/datasets/k5sn5ydbmc/1" class="uri">https://data.mendeley.com/datasets/k5sn5ydbmc/1</a> DOI: 10.17632/k5sn5ydbmc.1 Número de informe 22855</p>
+</div>
+<div id="aerocargo-trafic-argentina---from-2014-to-2019-no-covid-19-data-included" class="section level2">
+<h2><span class="header-section-number">13.5</span> Aerocargo Trafic Argentina - from 2014 to 2019 (no covid-19 data included)</h2>
+<p>Critical Infrastructure Risk Research Program PALMA, Ricardo Raúl; MASERA, Gustavo A.</p>
+<p>Proyectos Bianuales de Investigación Universidad Nacional de Cuyo</p>
+<p><em>DOI: 10.5281/zenodo.4025491</em></p>
+<p>Propuestas metodológicas y modelos de concepción, operación y gestión para la reducción de vulnerabilidad e incremento de la resiliencia en la nueva generación de infaestructuras crítica de américa latina. Código Sigeva: B083 Resolución Nro.: Otorgamiento: RES 4142/2019-R- Expediente : NOTA- CUY:38892/2019</p>
+<p><a href="https://zenodo.org/record/4025491#.X30VuHb0nJ4" class="uri">https://zenodo.org/record/4025491#.X30VuHb0nJ4</a></p>
+<p>Total de Vuelos Registrado con aeropuerto de partida y llegada. Existen menos del 2% de aeronaves que no emitieron su baliza ADSB que no fue captada por SDR. Despegaron y Aterrizaron en Locaciones no registradas como pistas habilitadas.</p>
+</div>
+<div id="energy-statistical-yearbook-2018---statistics" class="section level2">
+<h2><span class="header-section-number">13.6</span> Energy Statistical Yearbook 2018 - Statistics</h2>
+<p>Compilado por R. Palma Estadística mundial de eficiencia e intensidad energética</p>
+<p><a href="https://themys.sid.uncu.edu.ar/rpalma/R-cran/Energia/" class="uri">https://themys.sid.uncu.edu.ar/rpalma/R-cran/Energia/</a></p>
+</div>
+<div id="herederos" class="section level2">
+<h2><span class="header-section-number">13.7</span> Herederos</h2>
+<p>Datos de caso de estudio de empresas familiares que cambian la gerencia por jubilación de los fundadores.</p>
+<p>Es un caso de estudio redactado por R. Palma &amp; G. Masera sobre el impacto de la innovación en el futuro de las PyMEs Argentinas</p>
+<p><a href="https://themys.sid.uncu.edu.ar/rpalma/R-cran/Herederos.csv" class="uri">https://themys.sid.uncu.edu.ar/rpalma/R-cran/Herederos.csv</a></p>
+</div>
+<div id="índice-de-innovación-potencial" class="section level2">
+<h2><span class="header-section-number">13.8</span> Índice de Innovación Potencial</h2>
+<p>Caso de estudio y paper publicado por R. Palma (Universidad Nacional de Cuyo), Mauricio Camargo (Universidad de Lorenia) sobre investigación del índice de innovación potencial y su impacto en el riesgo y rentabilidad de empresas.</p>
+<p><a href="https://themys.sid.uncu.edu.ar/rpalma/R-cran/MDZ_Competitividad.csv" class="uri">https://themys.sid.uncu.edu.ar/rpalma/R-cran/MDZ_Competitividad.csv</a></p>
+</div>
+<div id="residuos-agrícolas" class="section level2">
+<h2><span class="header-section-number">13.9</span> Residuos Agrícolas</h2>
+<p>Caso real de relevamiejto de mecanismo de financiamiento de iniciativas para mitigar (reducir) el impacto de agroquímicos y eutrofizantes.</p>
+<p><a href="https://themys.sid.uncu.edu.ar/rpalma/R-cran/Residuos_Agricolas.csv" class="uri">https://themys.sid.uncu.edu.ar/rpalma/R-cran/Residuos_Agricolas.csv</a></p>
+</div>
+<div id="comparación-de-la-competitividad-de-bodegas-vitícolas-de-mendoza" class="section level2">
+<h2><span class="header-section-number">13.10</span> Comparación de la competitividad de Bodegas Vitícolas de Mendoza</h2>
+<p><a href="https://themys.sid.uncu.edu.ar/rpalma/R-cran/bodegas_productividad.Rda" class="uri">https://themys.sid.uncu.edu.ar/rpalma/R-cran/bodegas_productividad.Rda</a></p>
+</div>
+<div id="world-compliance-association" class="section level2">
+<h2><span class="header-section-number">13.11</span> World Compliance Association</h2>
+<p>Relevamiento del comportamieto financiero de casos de empresas Argentinas que se involucraron concluyeron en Corrupción</p>
+<p>Dimensiones: TIR = Rentabilidad anual VAN = Facturación Neta en Millones de U$D Asset = Inversión en Fijo Activos Ivent = Activos de trabajo más Inventario Type = Categórica Co(Corrupción) , Pi (Política de Integridad) , Da (Daño Colateral a 3ros.)</p>
+<p><a href="https://themys.sid.uncu.edu.ar/rpalma/R-cran/Socios.csv" class="uri">https://themys.sid.uncu.edu.ar/rpalma/R-cran/Socios.csv</a></p>
+</div>
+<div id="empresas-innovadoras" class="section level2">
+<h2><span class="header-section-number">13.12</span> Empresas innovadoras</h2>
+<p>Mapa de empresas con IIP superior a Q3</p>
+<p><a href="https://themys.sid.uncu.edu.ar/rpalma/R-cran/EI22.csv" class="uri">https://themys.sid.uncu.edu.ar/rpalma/R-cran/EI22.csv</a></p>
+</div>
+<div id="uso-de-energías-alternativas" class="section level2">
+<h2><span class="header-section-number">13.13</span> Uso de Energías Alternativas</h2>
+<p>Dataset utilizado en el libro &quot;Modelos y Escenarios Energéticos Para la Economía de Transición&quot;</p>
+<p>El dataset releva el uso de fuentes de energía en una localidad cordillerana en la que se pretende implementar smart grid.</p>
+<p><a href="https://ceal.ingenieria.uncuyo.edu.ar/r-cran/solar.txt" class="uri">https://ceal.ingenieria.uncuyo.edu.ar/r-cran/solar.txt</a></p>
+<!--chapter:end:07-datasets.Rmd-->
+</div>
+<div id="r-markdown" class="section level2">
+<h2><span class="header-section-number">13.14</span> R Markdown</h2>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">summary</span>(cars)</code></pre></div>
+<pre><code>##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00</code></pre>
+</div>
+<div id="including-plots" class="section level2">
+<h2><span class="header-section-number">13.15</span> Including Plots</h2>
+<p>You can also embed plots, for example:</p>
+<p><img src="_main_files/figure-html/pressure-1.png" width="672" /></p>
+<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+<!--chapter:end:Material.Rmd-->
+</div>
+</div>
+<!--bookdown:body:end-->
+            </section>
+
+          </div>
+        </div>
+      </div>
+<!--bookdown:link_prev-->
+<!--bookdown:link_next-->
+    </div>
+  </div>
+<!--bookdown:config-->
+
+</body>
+
+</html>
