@@ -1,0 +1,138 @@
+`r if (knitr:::is_html_output()) '
+# Datasets {-}
+'`
+
+
+# Datasets utilizados en el curso
+
+El siguiente es un listado de los datasets que utilizaremos en el curso y eventualmente otros que los doctorandos propongan.
+
+En la medida de sus posibilidades les pedimos que nos hagan llevar un link de acceso al dataset junto a un resumen de los datos y características.
+
+
+## WASH
+Urban Water and Sanitation Survey Dataset
+Ernest Guevarra
+2020-09-29
+
+Este dataset puede ser accedido directamente desde R-Cran invocando la instalación del paquete wash
+
+```{r}
+install.packages("washdata")
+
+```
+
+El dataset aborda el probelma de la producción de agua y el tratamiento de los efluentes en el hemisferio sur.
+
+<https://cran.r-project.org/web/packages/washdata/vignettes/washdata.html>
+
+## Impactos de la aglomeración industrial en la eficiencia ecológica y polución
+
+Un análisis econométrico basado en un dataset de 259 ciudades chinas.
+
+<https://www.sciencedirect.com/science/article/pii/S095965262030768X?casa_token=mTfJg69BY9gAAAAA:p5EX-I8QU4ZPRwoBQ2JugGsWP9RAJKaQg82mNI_r-JUMfhkkZuWQeIr8O_Cyz9RrEet9lj_D_VU>
+
+
+## Implementación de algoritmo K-Means para dispositivos eterogeneos (cpu/gpu)
+
+Caso de estudio basado en un dataset industrial.
+
+<https://upcommons.upc.edu/handle/2117/114842>
+
+
+## (Infrastructure) Global Wine Statistics Trained Neural Net
+
+Autores Ricardo R. Palma
+Fecha de publicación 2020/2/11
+Origen <https://data.mendeley.com/datasets/k5sn5ydbmc/1>
+DOI: 10.17632/k5sn5ydbmc.1
+Número de informe 22855
+
+
+## Aerocargo Trafic Argentina - from 2014 to 2019 (no covid-19 data included)
+
+Critical Infrastructure Risk Research Program
+ PALMA, Ricardo Raúl; MASERA, Gustavo A.
+
+Proyectos Bianuales de Investigación
+Universidad Nacional de Cuyo
+
+*DOI: 10.5281/zenodo.4025491*
+
+
+Propuestas metodológicas y modelos de concepción, operación y gestión
+para la reducción de vulnerabilidad e incremento de la resiliencia en la
+nueva generación de infaestructuras crítica de américa latina.
+Código Sigeva:  B083
+Resolución Nro.:  Otorgamiento: RES 4142/2019-R- Expediente : NOTA- CUY:38892/2019
+ 
+ <https://zenodo.org/record/4025491#.X30VuHb0nJ4>
+
+Total de Vuelos Registrado con aeropuerto de partida y llegada. Existen menos del 2% de aeronaves que no emitieron su baliza ADSB que no fue captada por SDR. Despegaron y Aterrizaron en Locaciones no registradas como pistas habilitadas.
+
+
+## Energy Statistical Yearbook 2018 - Statistics
+
+Compilado por R. Palma
+Estadística mundial de eficiencia e intensidad energética
+
+<https://themys.sid.uncu.edu.ar/rpalma/R-cran/Energia/>
+
+## Herederos
+Datos de caso de estudio de empresas familiares que cambian la gerencia por jubilación de los fundadores. 
+
+Es un caso de estudio redactado por R. Palma & G. Masera sobre el impacto de la innovación en el futuro de las PyMEs Argentinas
+
+<https://themys.sid.uncu.edu.ar/rpalma/R-cran/Herederos.csv>
+
+
+## Índice de Innovación Potencial
+
+Caso de estudio y paper publicado por R. Palma (Universidad Nacional de Cuyo), Mauricio Camargo (Universidad de Lorenia) sobre investigación del índice de innovación potencial y su impacto en el riesgo y rentabilidad de empresas. 
+
+<https://themys.sid.uncu.edu.ar/rpalma/R-cran/MDZ_Competitividad.csv>
+
+
+## Residuos Agrícolas
+
+Caso real de relevamiejto de mecanismo de financiamiento de iniciativas para mitigar (reducir) el impacto de agroquímicos y eutrofizantes.
+
+<https://themys.sid.uncu.edu.ar/rpalma/R-cran/Residuos_Agricolas.csv>
+
+
+
+## Comparación de la competitividad de Bodegas Vitícolas de Mendoza
+
+<https://themys.sid.uncu.edu.ar/rpalma/R-cran/bodegas_productividad.Rda>
+
+
+
+## World Compliance Association
+Relevamiento del comportamieto financiero de casos de empresas Argentinas que se involucraron concluyeron en Corrupción
+
+Dimensiones:
+TIR = Rentabilidad anual
+VAN = Facturación Neta en Millones de U$D
+Asset = Inversión en Fijo Activos
+Ivent = Activos de trabajo más Inventario
+Type = Categórica Co(Corrupción) , Pi (Política de Integridad) , Da (Daño Colateral a 3ros.)
+
+<https://themys.sid.uncu.edu.ar/rpalma/R-cran/Socios.csv>
+
+
+
+## Empresas innovadoras
+
+Mapa de empresas con IIP superior a Q3 
+
+<https://themys.sid.uncu.edu.ar/rpalma/R-cran/EI22.csv>
+
+
+## Uso de Energías Alternativas
+
+Dataset utilizado en el libro "Modelos y Escenarios Energéticos Para la Economía de Transición"
+
+El dataset releva el uso de fuentes de energía en una localidad cordillerana en la que se pretende implementar smart grid. 
+
+<https://ceal.ingenieria.uncuyo.edu.ar/r-cran/solar.txt>
+

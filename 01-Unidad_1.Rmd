@@ -1,0 +1,114 @@
+# Analítica de Datos  {#Encuentro_1}
+
+
+Acceso al aula virtual para hacer los trabajos prácticos de este Encuentro
+
+[link](https://classroom.google.com/c/MTIxNDQ1ODYyMTM4?cjc=yegjvv2)
+
+
+## Teoría
+
+### Bases de la analítica de datos
+
+Habitualmente en el terreno de las ingenierías, especialmente en las ingenierías generalistas, como la mecatrónica y la industrial, hay una serie de pasos que guían el paso de un profesional junior a senior. Este paso intermedio al que nos referimos es el de un profesional que pasa de las estapas operativas o de planeamiento táctico al de una persona con mucha experiencia es ese terreno que se transforma de supervisor de un área limitada a ANALISTA.
+
+La principal característica de este profesional es que ha logrado, merced a su experiencia en varios proyectos o años de planeación y supervisión el talento para lograr una abstracción que le permitiría en teoría saltar del campo disciplinar en el que se formó para instalarse en otro distinto y ser exitoso sin pasar por la experimentación y experiencia.
+
+Hemos conocido a muchos ingenieros y profesionales del terreno industrial que, por ejemplo tuvieron unos 5 a 10 años en el área del retail o del supermrecadismo en Argentina y saltaron a ser analistas en el terreno de la industria automotriz en Brasil. ¿Cómo es esto posible?
+
+La respuesta más simple para entender esta situación es que se trata de procesos (o fenómenos) homólogos. Vale decir los modelos y eurísticas del retail en la preparación de pedidos y forecasting  son los mismos que rigen el planeamiento de la producción de una línea automotríz. 
+
+Pensemos, con la ley de Ohm es casi natural para los ingenieros explicar fenómenos sociales o el mismo  calentamiento global. 
+
+Un analista es capaz de observar un comportamiento e intuir en determinadas circunstancias tal o cual modelo no es aplicable a una situación coyuntural. 
+
+A modo de ejemplo casi ningún analista en la cadena de suministros aplicaría en situación de pandemia el modelo de Wilson para determinar el nivel de inventario o el tamaño de lote. 
+
+Existen analistas “intuitivos” que saben capitalizar sus experiencias previas, pero este tiempo de los artesanos paa el análisis cada día se torna menos creible y los verdaderamente exitosos han cambiado el instinto por marcos teóricos formales. En tal sentido la inteligencia artificial ha salido en ayuda del analista y como ella otros marcos formales han conformado este campo disciplinar emergente que es el que llamamos analítica de datos.
+
+Existen al menos tres profesionales que integran los equipos del team de la analítica de datos.
+
+* Data Engineer
+* Data Scientific
+* Data worker o seeker
+* Pure Data Analyst
+* Draftsman
+
+Todos son importantes en un equipo, pero ninguno es imprescindible. En el sector PyME de LAC (Latino América y Caribe) no es extraño que estos equipos se reduzcan a límite de ser equipos de una sola persona, que además comercializan, compran materia prima, atienden los conflictos familiares de los dueños de la empresa, pagan sueldos e impuestos y barren. Todo sea por mantener la empresa en funcionamiento. Me olvidaba , si queda tiempo hacen de advisor con la analítica de datos. 
+
+La Analítica de Datos (Data Analysis, o DA) es la ciencia que examina datos en bruto con el propósito de sacar conclusiones sobre la información. El análisis de datos es usado en varias industrias para permitir que las compañías y las organizaciones *tomen mejores decisiones* empresariales y también es usado en las ciencias para verificar o reprobar modelos o teorías existentes. El análisis de datos se distingue de la extracción de datos por su alcance, su propósito y su enfoque sobre el análisis. Los extractores de datos clasifican inmensos conjuntos de datos usando software sofisticado para identificar patrones no descubiertos y establecer relaciones escondidas. El análisis de datos se centra en la inferencia, el proceso de derivar una conclusión basándose solamente en lo que conoce el investigador y fuertemente soportado por la estadística.
+
+
+
+# Revisión de las herramientas de software y hardware disponibles
+
+
+## Software para celulares
+
+Es claro que el territorio que antes ocupaba la PC es cada día más invadido por el teléfono celular. Por este motivo es necesario tnener en cuenta que dentro de las herramientas disponibles existen programas o software para PC, apps para el celular y elementos mixtos, tales como la aplicaciones en la nube. De modo que al encarar el tema de analítica de datos este hecho relativo al hardware debe ser tenido en cuenta y no limitarse a una preconcepción.
+
+Por otro lado en el entorno indutrial cada vez son más los dispositivos (electrodomésticos) que vienen concebidos con internet de las cosas -IOT- por sus siglas en inglés . En le mundo de la industria esto también ocurre con equipo dotados de lo que se denomina internet de las cosas industriales -IIOT-.
+
+![Aplicaciones Android](playstore.png)
+
+Esto es lo que hoy aparece como aplicaciones disponibles para el sistema android . En este caso hemos utilizado aplicaciones que pueden ayudar mucho en la elaboración del trabajo de evaluación, pero tienen un aporta mayor para elaborar una tesis doctoral.
+
+De todos modos es altamente recomendable que indagues y experimentes con ellas. Tanto las herramientas de gestión bibliometrica como las de gestión y revisión de patentes están entre las aplicaiones más usadas en el campo de la analítica de datos industriales. 
+
+## Herramientas para PC
+
+### Análisis Bibliométrico
+
+Sea cual fuere el entorno o problema industrial que motiva en trabajo de la analítica que se pretende desarrollar hay dos factores clave que deben ser tenidos en cuenta. 
+El primero está referido a las redes de personas. Hace unos 20 años atrás era muy común la ealboración de almanaques o enciclopedias que señalavan lo que se denominaba who is who en determinado campo industrial o de investigación. 
+
+El segundo era descibrir como los trabajos y pdoducidos de la investigación ligaban territorialmente a estas, persona. Este segundo punto además permite con la ayuda de servicios orientados de internet obtener una perspectova golbal de la especialización por país y actividad. 
+
+![Almanaque Mundial](almanaque.jpg)
+Pero mucho de este material sustituido por las herramientas bibliométricas que aún reinan en el terreno de la PC pero cada día se mueven a la nube o al celular. 
+
+Estas herramientas bibliométricas son una de las clavex para comenzar a trabajar en analítica de datos, pero también para elaborar una parte central del primer capítulo de cualquier tesis denominada *Estado del Arte*.
+
+
+
+
+
+* Georeferenciación y exploración georeferenciada de datos y bibliometría
+* Modelos basados en redes neuronales y su entrenamiento
+* Crítica de la KDNN con el uso de Big-Data
+
+## Tecnologías
+
+* Soluciones propuesta con el uso de CUDA (uso de GPU en lugar de CPU)
+* Uso de la biblioteca Neuralnet y NeuralNetTools.
+* Uso de las bibliotecas Serial Time Análisis y Finance Econometics, diferencias entre las predicciones de ambas tecnologías
+
+## Casos de estudio para el aula virtual
+
+Caso de Estudio – El éxitoso caso de la industria del vino en Nueva Zelanda durante la pandemia
+Caso de Estudio – El INV y el sector vitivinícola de Mendoza, hacia una nueva explosión del consumo de vinos de alta gama como consecuencia de la cuarentena.
+
+
+
+
+
+
+You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+
+Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+
+```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
+par(mar = c(4, 4, .1, .1))
+plot(pressure, type = 'b', pch = 19)
+```
+
+Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+
+```{r nice-tab, tidy=FALSE}
+knitr::kable(
+  head(iris, 20), caption = 'Here is a nice table!',
+  booktabs = TRUE
+)
+```
+
+You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
